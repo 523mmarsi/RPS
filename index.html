@@ -6,12 +6,12 @@
     <title>Rock Paper Scissors</title>
   </head>
   <body>
-  <div class="container">
     <section class="game">
       <!--Title-->
       <div class="title">
         Rock Paper Scissors
       </div>
+      <p><h4>Pick rock, paper, or scissors and see if you can beat the computer.</h4></p>
     </section>
     <!--Scoreboard Display for User and Ai-->
     <div class="score">
@@ -34,10 +34,11 @@
       <button class="scissors" onclick="throwScissors()">Scissors</button>
     </div>
     <!--Show result of round-->
+    <br>
     <div class="result" onclick="reset()">Who's the winner?
     <p class="roundResultDisplay"></p></div>
 
     <!--button to reset score-->
     <button class="reset" onclick="reset()">Reset</button>
+    <footer><p>@Copyright Mo's Rock, Paper, Scissors Stimulator</p></footer>
         <script src="script.js"></script>
-</div>
